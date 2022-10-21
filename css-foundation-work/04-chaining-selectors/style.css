@@ -1,0 +1,10 @@
+/* to select an element with 2 classes you just put
+one after the other */
+.avatar.proportioned {
+    width: 300px;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}

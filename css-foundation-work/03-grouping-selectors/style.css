@@ -1,0 +1,14 @@
+.button1 {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.button2 {
+    background-color: #ffff00;
+}
+/** if you want multiple elements to share one of the same
+atributes you can add class groupings**/ 
+.button1 .button2 {
+    font-family: Helvetica, Times New Roman, sans-serif;
+    font-size: 28px;
+}
