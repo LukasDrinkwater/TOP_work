@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Javascript functions basic</title>
+</head>
+<body>
+    <script>
+
+        // function add7(a) {
+        //     return (a+7);
+        // }
+
+        // function multiply(a, b) {
+        //     return (a*b);
+        // }
+
+        // function capitalise(string) {
+        //     return string.charAt(0).toUpperCase() + string.slice(1);
+        // }
+
+        // function lastLetter(string) {
+        //     //.slice(-1) takes the last letter in a string
+        //     return string.slice(-1);
+        // }
+
+        let answer = parseInt(prompt("please enter the number"));
+
+        for (let i = 1; i <= answer; i++) {
+            if (i % 3 ===0 && i % 5 === 0) {
+            console.log("Fizzbuzz");
+            } else if (i % 3 === 0) {
+            console.log("Fizz");
+            } else if (i % 5 ===0) {
+            console.log("Buzz");
+            } else {
+            console.log(i);
+            }
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
