@@ -1,0 +1,35 @@
+
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    height: 500px;
+    
+    width: 500px;
+    
+}
+
+.grid-container *  {
+    
+  
+    background-color: #73b9f7;
+}
+
+.row    {
+    display: flex;
+    width: 100%;
+}
+
+.gridsquare {
+    display: flex;
+    width: 100%;
+}
+
+
+.hovered {
+    display: flex;
+    width: 100%;
+    background-color: #08467c;
+}
