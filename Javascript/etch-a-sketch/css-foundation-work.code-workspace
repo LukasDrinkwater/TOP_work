@@ -1,0 +1,27 @@
+{
+	"folders": [
+		{
+			"name": "css-foundation-work",
+			"path": "../../../css-foundation-work"
+		},
+		{
+			"name": "margin-and-padding",
+			"path": "../../../css-foundation-work/margin-and-padding"
+		},
+		{
+			"name": "flex",
+			"path": "../../../css-foundation-work/flex"
+		},
+		{
+			"name": "Landing_page",
+			"path": "../../Landing_page"
+		},
+		{
+			"name": "Javascript_basics",
+			"path": "../Javascript_basics"
+		},
+		{
+			"path": "../.."
+		}
+	]
+}

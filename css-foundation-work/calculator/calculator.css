@@ -1,0 +1,85 @@
+* { border: 1px solid black; }
+
+/* css styles for the display div */
+
+.display {
+
+    display: flex;
+
+    height: 63px;
+    width: 250px;
+    position:absolute;
+   
+}
+
+
+
+
+/* css for the number buttons */
+.calcContainer {
+
+    display: flex;
+    height: 350px;
+    width: 350px;
+
+    
+}
+
+
+.numberContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    /* height: 200px; */
+    width: 250px;
+    margin-top: 65px;
+    justify-content: center;
+}
+
+.numberContainer > button {
+    
+    display: flex;
+
+    background-color: #68b8ff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+
+    justify-content: center;
+
+    align-items: center;
+}
+
+
+/* css styles for the math buttons */
+.mathButtons {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+
+}
+
+.mathButtons .clearButton {
+    background-color: #fab41e;
+}
+
+.mathButtons > button {
+
+    display: flex;
+
+    background-color: #68b8ff;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+
+    justify-content: center;
+
+    align-items: center;
+
+}
+
+

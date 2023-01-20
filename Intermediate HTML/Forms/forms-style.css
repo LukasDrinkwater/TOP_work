@@ -1,0 +1,66 @@
+form {
+    /* form css centre the form on the page
+    margin: 0 auto;
+    width: 400px;
+    /* set a form outlin */
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+} 
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+form li + li {
+    margin-top: 1em;
+}
+
+label {
+    /* uniform size and alignment */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* to make sure that all the text fields have
+    the same font settings.
+    By default, textreas have a monospace font */
+    font: 1em sans-serif;
+
+    /* uniform text field size */
+    width: 300px;
+    box-sizing: border-box;
+
+    /* match form field borders */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* additional highlight for the focused elements */
+    border-color: #000;
+}
+
+textarea {
+    /* allign multiline text fields with their labels */
+    vertical-align: top;
+
+    /* provide sapce to typ[e some text */
+    height: 5em;
+}
+
+.button {
+    /* allign buttons with the text fields */
+    padding-left: 90px;
+}
+
+button {
+    /* this extra margin represents roughly the same space as 
+    the space between the labels and their text fields */
+    margin-left: 0.5em;
+}
