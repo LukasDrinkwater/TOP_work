@@ -80,35 +80,23 @@ input {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     background-color: #0ea5e9;
-    color: #ffffff;
 }
 
-
-
 .Dashboard {
-    height: 100px;
     display: flex;
+    height: 100px;
     align-items: center;
+    font-size: 2rem;
 }
 
 .DashBoardIcon {
     height: 40px;
     width: auto;
-    filter: invert(100%) sepia(25%) saturate(0%) hue-rotate(75deg) brightness(104%) contrast(105%);
-    fill: #ffffff;
 }
 
-.DashBoardIcon img {
-    fill: #ffffff;
-}
-
-.DashBoardText {
-    font-size: 2rem;
-}
-
-.DashBoardIcon, div {
+.DashBoardIcon div {
     vertical-align: middle;
-    display: inline;
+    display: block;
 }
 
 .List1 {
@@ -171,6 +159,20 @@ input {
     background-color: #bae6fd;
 }
 
+.YourProjectsHeading {
+    grid-row: 1 / 2;
+    height: 35px;
+    /* position: relative; */
+    font-size: 1.5rem;
+    padding-left: 15px;
+    padding-top: 50px;
+}
+
+.YourProjectsHeading p {
+    justify-self: start;
+  align-self: end;
+}
+
 .ProjectCards {
     display: grid;
     grid-column: 1 / 2; 
@@ -183,6 +185,7 @@ input {
 }
 
 .Card {
+    position: relative;
     height: 150px;
     padding: 20px;
     background-color: #f0f9ff;
@@ -191,7 +194,10 @@ input {
 }
 
 .CardIconContainer {
-    text-align: right;
+    /* text-align: right; */
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
 }
 
 .CardIcon {
@@ -203,6 +209,8 @@ input {
     margin: 0;
 } */
 
+
+
 /* ANNOUNCEMENTS */
 
 
@@ -211,17 +219,22 @@ input {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 3;
+    grid-row: 1 / 3;
     grid-row-gap: 30px;
+    margin-top: 75px;
 }
 
 .AnnouncementsContainerHeading {
     /* height: fit-content; */
-    background-color: #f0f9ff;
-    margin-bottom: 15px;
+    background-color: #bae6fd;
+    padding-bottom: 15px;
+    font-size: 1.5rem;
 }
 
 
-
+.AnnouncementcardContainer {
+    padding-top: 40px;
+}
 
 /* .Announcements {
     height: 50%;
@@ -231,7 +244,7 @@ input {
     /* display: grid;
     grid-template-rows: 1fr, 1fr, 1fr;
     height: 100%; */
-    background-color: #f50c0c;
+    background-color: #f0f9ff;
 }
 
 .Announcements {
@@ -250,20 +263,24 @@ input {
     padding-left: 15px;
 }
 
-.AnnouncementHeading {
+/* .AnnouncementHeading {
     padding-bottom: 5px;
     font-weight: bold;
-}
+} */
 
 
 
 .TrendingContainerHeading {
-    background-color: #f0f9ff;
+    background-color: #bae6fd;
+    padding-bottom: 15px;
+}
 
+.TrendingCardContainer {
+    padding-top: 10px;
 }
 
 .Trending {
-    background-color: #44abf0;
+    background-color: #f0f9ff;
     height: 90%;
 }
 
