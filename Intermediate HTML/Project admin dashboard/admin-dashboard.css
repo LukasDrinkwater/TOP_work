@@ -23,6 +23,10 @@ html {
     grid-area: 1 / 2 / 2 / 3 ;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    background-color: #f0f9ff;
+    box-shadow: 0px 5px 5px 0px #a3a3a3;
+    position: relative;
+    z-index: 1;
 }
 
 .SearchWrapper {
@@ -44,6 +48,40 @@ input {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     place-items: center;
+}
+
+.HiCurrentUser{
+    display: flex;
+    /* display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 1fr; */
+    max-width: 60%;
+    /* width: 300px; */
+    background-color: #0ea5e9;
+    margin-left: 30px;
+}
+
+.CurrentUserPicture {
+    height: 50px;
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.CurrentUserPictureContainer {
+    display: flex;
+    align-items: center;
+    /* display: grid; */
+    width: fit-content;
+    background-color: #ffd000;
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 3; */
+}
+
+
+
+.CurrentUserDetails {
+    display: flex;
 }
 
 .HeaderButtons {
@@ -87,6 +125,7 @@ input {
     height: 100px;
     align-items: center;
     font-size: 2rem;
+    color: #ffffff;
 }
 
 .DashBoardIcon {
@@ -166,6 +205,8 @@ input {
     font-size: 1.5rem;
     padding-left: 15px;
     padding-top: 50px;
+    position: relative;
+    z-index: 0;
 }
 
 .YourProjectsHeading p {
@@ -191,6 +232,9 @@ input {
     background-color: #f0f9ff;
     margin: 0;
     padding-right: 50px;
+    border-radius: 10px;
+    background:linear-gradient(#ffd000,#ffd000) left/10px   100% no-repeat,#f2f2f2;
+    box-shadow: 3px 3px 5px 0px #a3a3a3;
 }
 
 .CardIconContainer {
@@ -220,8 +264,9 @@ input {
     grid-template-rows: 1fr 1fr;
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    grid-row-gap: 30px;
+    grid-row-gap: 50px;
     margin-top: 75px;
+    
 }
 
 .AnnouncementsContainerHeading {
@@ -233,7 +278,11 @@ input {
 
 
 .AnnouncementcardContainer {
-    padding-top: 40px;
+    padding-top: 20px;
+    background-color: #f0f9ff;
+    box-shadow: 3px 3px 5px 0px #a3a3a3;
+    padding-bottom: 10px;
+    border-radius: 10px;
 }
 
 /* .Announcements {
@@ -244,7 +293,7 @@ input {
     /* display: grid;
     grid-template-rows: 1fr, 1fr, 1fr;
     height: 100%; */
-    background-color: #f0f9ff;
+    /* background-color: #f0f9ff; */
 }
 
 .Announcements {
@@ -273,14 +322,19 @@ input {
 .TrendingContainerHeading {
     background-color: #bae6fd;
     padding-bottom: 15px;
+    font-size: 1.5rem;
 }
 
 .TrendingCardContainer {
-    padding-top: 10px;
+    /* padding-top: 10px; */
+    box-shadow: 3px 3px 5px 0px #a3a3a3;
+    background-color: #f0f9ff;
+    padding-bottom: 20px;
+    border-radius: 10px;
 }
 
 .Trending {
-    background-color: #f0f9ff;
+    /* background-color: #f0f9ff; */
     height: 90%;
 }
 
@@ -296,3 +350,29 @@ input {
     font-weight: bold;
 }
 
+
+
+/* MISC MULTI USE CSS STYLES */
+
+.IconWhite {
+    filter: invert(99%) sepia(0%) saturate(7500%) hue-rotate(185deg) brightness(103%) contrast(103%);
+}
+
+.List1 .IconWhite {
+    height: 20px;
+    width: auto;
+    
+}
+
+.List2 .IconWhite {
+    height: 20px;
+    width: auto;
+}
+
+.List1  li {
+    display: inline-block
+}
+
+.List2 li {
+    display: inline-block
+}
