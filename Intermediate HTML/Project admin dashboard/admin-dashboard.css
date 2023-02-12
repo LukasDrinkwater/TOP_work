@@ -1,12 +1,6 @@
-/* body {
-    min-height: 100%;    
-    margin: 0;
-    padding: 0;
+div, p, ul {
+    font-family: 'Roboto', serif;
 }
-
-html {
-    height: 100%;
-} */
 
 .MainContainer {
     display: grid;
@@ -50,6 +44,11 @@ input {
     place-items: center;
 }
 
+.ProfileGrid img {
+    height: 40px;
+    width: auto;
+}
+
 .HiCurrentUser{
     display: flex;
     /* display: grid;
@@ -57,15 +56,12 @@ input {
     grid-template-rows: 1fr 1fr; */
     max-width: 60%;
     /* width: 300px; */
-    background-color: #0ea5e9;
     margin-left: 30px;
 }
 
 .CurrentUserPicture {
-    height: 50px;
+    height: 60px;
     width: auto;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
 .CurrentUserPictureContainer {
@@ -73,11 +69,13 @@ input {
     align-items: center;
     /* display: grid; */
     width: fit-content;
-    background-color: #ffd000;
     /* grid-column: 1 / 2;
     grid-row: 1 / 3; */
 }
 
+.CurrentUserDetailsContainer p {
+    padding-left: 20px;
+}
 
 
 .CurrentUserDetails {
@@ -89,10 +87,13 @@ input {
 }
 
 .HeaderButtons button {
-     width: 60px;
-     height: 25px;
+     width: 65px;
+     height: 35px;
      border-radius: 10px;
      border-style: none;
+     background-color: #0ea5e9;
+     color: white;
+     font-weight: bold;
 }
 
 .HeaderButtons ul {
