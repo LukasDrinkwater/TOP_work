@@ -135,7 +135,7 @@ input {
 }
 
 .DashBoardIcon div {
-    vertical-align: middle;
+    /* vertical-align: middle; */
     display: block;
 }
 
@@ -290,12 +290,6 @@ input {
     height: 50%;
 } */
 
-.AnnouncementCards {
-    /* display: grid;
-    grid-template-rows: 1fr, 1fr, 1fr;
-    height: 100%; */
-    /* background-color: #f0f9ff; */
-}
 
 .Announcements {
     margin-right: 15px;
